@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p,
+h3,
+h4,
+h5,
+a {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Keep Calm", sans-serif;
+}
+
+.container {
+  margin-top: 8rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+.spacer-lg {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.spacer-md {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.spacer-sm {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
